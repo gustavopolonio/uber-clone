@@ -7,6 +7,9 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 16px;
+
+  position: sticky;
+  top: 0;
 }
 
 .header__nav-link {
@@ -30,4 +33,71 @@ body {
   background-color: #ffffff;
   color: #000000;
   border-radius: 18px;  
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 64px 0;
+  height: 2000px;
+}
+
+.register__content {
+  max-width: 420px;
+}
+
+.register__city {
+  margin-right: 20px;
+}
+
+.register__title {
+  font-size: 64px;
+}
+
+.register__icon {
+  width: 16px;
+  height: 16px;
+}
+
+.register__background-image {
+  width: 576px;
+  height: 384px;
+}
+
+.register__input {
+  background-color: #a3a2a2;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.register__input-text {
+  margin-left: 12px;
+}
+
+.register__location {
+  margin-left: auto;
+}
+
+.register__input + .register__input {
+  margin-top: 20px;
+}
+
+.button_type_secondary {
+  background-color: #000000;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.register__login {
+  display: block;
+  margin-top: 20px;
+}
+
+.button_type_fixed {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
 }
