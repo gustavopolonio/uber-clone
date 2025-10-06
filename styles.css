@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.header__nav-link {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 18px;
+}
+
+.header__nav-links {
+  color: #ffffff;
+}
+
+.button {
+  padding: 12px 16px;
+}
+
+.button_type_primary {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 18px;  
+}
